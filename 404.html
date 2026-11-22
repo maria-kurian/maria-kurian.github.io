@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Room not found — Maria Catherine Kurian</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f1ebe4">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <script>(function(){var d=document.documentElement;try{var t=localStorage.getItem('mk-theme');if(!t){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}d.setAttribute('data-theme',t)}catch(e){}})();</script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <style>
+    .lost { min-height: 100svh; display: grid; place-items: center; text-align: center; padding: var(--gutter); position: relative; overflow: clip; }
+    .lost__inner { display: grid; justify-items: center; gap: 1.6rem; position: relative; z-index: 1; }
+    .lost__num { font-family: var(--f-display); font-weight: 300; font-size: clamp(7rem, 30vw, 22rem); line-height: 0.8; letter-spacing: -0.06em; font-variation-settings: "opsz" 144, "SOFT" 100; }
+    .lost__num em { font-style: italic; color: var(--accent); font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
+    .lost__arch { position: absolute; width: min(70vw, 520px); aspect-ratio: 3 / 4; border-radius: var(--arch); border: 1px solid var(--line-strong); top: 50%; left: 50%; translate: -50% -46%; animation: breathe 6s var(--ease-io) infinite alternate; }
+    @keyframes breathe { to { scale: 1.06; border-color: var(--accent); } }
+  </style>
+</head>
+<body>
+  <main class="lost">
+    <div class="lost__arch" aria-hidden="true"></div>
+    <div class="lost__inner">
+      <p class="label label--dot">Error 404</p>
+      <h1 class="lost__num">4<em>0</em>4</h1>
+      <p class="lead">This room is closed for restoration.</p>
+      <a class="btn-circle btn-circle--solid" href="/"><span>Back to<br>the foyer</span></a>
+    </div>
+  </main>
+</body>
+</html>
